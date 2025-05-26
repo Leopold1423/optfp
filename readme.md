@@ -1,6 +1,6 @@
-## MPE
+## OptFP
 This repository contains the implementation of submission paper:
-Mixed-Precision Embeddings for Large-Scale Recommendation Models. 
+Optimizing Feature Precision for Deep Recommendation Models. 
 
 
 ### Data Preprocessing
@@ -36,4 +36,4 @@ The 'run' folder contains scripts for testing all methods. Note that the corresp
 | OptFS    | tau=2e-2, optfs_l1=1.75e-10         | tau=1e-3, optfs_l1=1e-8             | tau=1e-2, optfs_l1=1e-9             |
 | ALPT     | bit=8, lr_alpha=1e-6                | bit=8, lr_alpha=1e-6                | bit=8, lr_alpha=1e-6                |
 | LSQ+     | bit=6, lr_alpha=1e-3                | bit=6, lr_alpha=1e-3                | bit=6, lr_alpha=1e-3                |
-| MPE      | $g$=128, $\tau$=3e-3, $\gamma$=2e-6 | $g$=128, $\tau$=3e-3, $\gamma$=3e-4 | $g$=128, $\tau$=3e-3, $\gamma$=3e-6 |gang
+| OptFP    | $g$=128, $\tau$=3e-3, $\gamma$=2e-6 | $g$=128, $\tau$=3e-3, $\gamma$=3e-4 | $g$=128, $\tau$=3e-3, $\gamma$=3e-6 |

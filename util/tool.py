@@ -17,7 +17,7 @@ def get_device(gpu):
     return device
 
 def get_data_loader(dataset):
-    work_space = "/home/lishiwei/ctr_embedding/"
+    work_space = "./"
     if dataset == "criteo_2":
         data_config = {
             "dataset": "criteo_2",

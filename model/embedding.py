@@ -235,7 +235,7 @@ class ALPT_Embedding(Embedding):
 def optfp_get_groups(group_num, group_size, feature_num, dataset):
     feature_group = torch.arange(group_num).unsqueeze(dim=-1) * torch.ones((group_num, group_size))
     feature_group = feature_group.reshape(-1)[:feature_num]
-    path1 = "/home/lishiwei/ctr_embedding/dataprocess/"
+    path1 = "./dataprocess/"
     path2 = dataset.replace("_", "_new/threshold_")
     path3 = "/stats/feat_cnt.pkl"
     with open(path1+path2+path3, 'rb') as fi:
